@@ -1,0 +1,17 @@
+D:\Personal\Homework\C#\My project\Project_8\src\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+D:\Personal\Homework\C#\My project\Project_8\src\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+D:\Personal\Homework\C#\My project\Project_8\src\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+D:\Personal\Homework\C#\My project\Project_8\src\Infrastructure\bin\Debug\net7.0\Domain.dll
+D:\Personal\Homework\C#\My project\Project_8\src\Infrastructure\bin\Debug\net7.0\Domain.pdb
+D:\Personal\Homework\C#\My project\Project_8\src\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+D:\Personal\Homework\C#\My project\Project_8\src\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal\Homework\C#\My project\Project_8\src\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Personal\Homework\C#\My project\Project_8\src\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+D:\Personal\Homework\C#\My project\Project_8\src\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Personal\Homework\C#\My project\Project_8\src\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete
+D:\Personal\Homework\C#\My project\Project_8\src\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+D:\Personal\Homework\C#\My project\Project_8\src\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+D:\Personal\Homework\C#\My project\Project_8\src\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+D:\Personal\Homework\C#\My project\Project_8\src\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
+D:\Personal\Homework\C#\My project\Project_8\src\Infrastructure\bin\Debug\net7.0\Application.dll
+D:\Personal\Homework\C#\My project\Project_8\src\Infrastructure\bin\Debug\net7.0\Application.pdb
