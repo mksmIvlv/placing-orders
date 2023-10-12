@@ -15,17 +15,17 @@ public class User
     /// <summary>
     /// Имя пользователя
     /// </summary>
-    public string Name { get; }
+    public string Name { get; private set; }
     
     /// <summary>
     /// Фамилия пользователя
     /// </summary>
-    public string Surname { get; }
+    public string Surname { get; private set; }
 
     /// <summary>
     /// Коллекция заказов у пользователя
     /// </summary>
-    public ICollection<Order> CollectionOrders { get; } = new List<Order>();
+    public ICollection<Order> CollectionOrders { get; private set; }
 
     #endregion
 
@@ -36,6 +36,7 @@ public class User
         Id = Guid.NewGuid();
         Name = name;
         Surname = surname;
+        CollectionOrders = new List<Order>();
     }
 
     #endregion

@@ -19,7 +19,6 @@ public static class OrderConfiguration
         {
             q.AutoMap();
             q.MapIdMember(e => e.Id).SetSerializer(new GuidSerializer(BsonType.String));
-            q.MapMember(e => e.DateRegistration).SetSerializer(new DateTimeSerializer(BsonType.DateTime));
             q.MapMember(e => e.Price).SetSerializer(new DecimalSerializer(BsonType.Decimal128));
         });
     }

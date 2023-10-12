@@ -1,7 +1,6 @@
 D:\Personal\Homework\C#\My project\Project_8\src\Domain\bin\Debug\net7.0\Domain.deps.json
 D:\Personal\Homework\C#\My project\Project_8\src\Domain\bin\Debug\net7.0\Domain.dll
 D:\Personal\Homework\C#\My project\Project_8\src\Domain\bin\Debug\net7.0\Domain.pdb
-D:\Personal\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
 D:\Personal\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
 D:\Personal\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
 D:\Personal\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
