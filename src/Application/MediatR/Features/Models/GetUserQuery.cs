@@ -1,9 +1,9 @@
-﻿using Application.Mediatr.Interfaces.Commands;
+﻿using Application.Mediatr.Interfaces.Queries;
 using Domain.Models;
 
 namespace Application.MediatR.Features.Models;
 
-public class GetUserGetCommand : ICommand<User>
+public class GetUserQuery : IQuery<User>
 {
     #region Свойство
 
@@ -16,7 +16,7 @@ public class GetUserGetCommand : ICommand<User>
 
     #region Конструктор
 
-    public GetUserGetCommand(Guid id)
+    public GetUserQuery(Guid id)
     {
         Id = id;
     }

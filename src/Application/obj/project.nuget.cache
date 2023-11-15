@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QzUKg5DcvI0HowO1jGpuMQhHVrLT03ogmAMVQVeYWCGXFlHD96GlVYFw/qWtVBCD1U0aI9YCRpfhLmiNmjth9A==",
+  "dgSpecHash": "Kbz8+PoehdrQdeG29rEe/OHOXSel1P8SkU9cUpXMDcCSwleut9FXX56WACvwm5ZIOrpjxVMUPJw5XJzb/iLHBg==",
   "success": true,
-  "projectFilePath": "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Application\\Application.csproj",
+  "projectFilePath": "D:\\Homework\\C#\\My project\\Project_8\\src\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maxim\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
     "C:\\Users\\maxim\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
@@ -21,6 +21,7 @@
     "C:\\Users\\maxim\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\maxim\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\maxim\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\maxim\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\maxim\\.nuget\\packages\\serilog\\3.0.1\\serilog.3.0.1.nupkg.sha512",
     "C:\\Users\\maxim\\.nuget\\packages\\serilog.aspnetcore\\7.0.0\\serilog.aspnetcore.7.0.0.nupkg.sha512",
     "C:\\Users\\maxim\\.nuget\\packages\\serilog.enrichers.environment\\2.2.0\\serilog.enrichers.environment.2.2.0.nupkg.sha512",

@@ -3,12 +3,10 @@ using FluentValidation;
 
 namespace Application.Validations.Models;
 
-public class EditUserValidation : AbstractValidator<EditUserPutCommand>
+public class EditUserValidation : AbstractValidator<EditUserCommand>
 {
     public EditUserValidation()
     {
-        RuleFor(x => x.Id).NotNull();
-        RuleFor(x => x.Id).NotEmpty();
         RuleFor(x => x.Name).NotNull();
         RuleFor(x => x.Name).NotEmpty();
         RuleFor(x => x.Name).Must(HelperMethods.IsValidFullName);

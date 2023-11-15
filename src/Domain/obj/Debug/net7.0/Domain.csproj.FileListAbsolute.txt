@@ -9,3 +9,14 @@ D:\Personal\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\Domain.
 D:\Personal\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\refint\Domain.dll
 D:\Personal\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\Domain.pdb
 D:\Personal\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\ref\Domain.dll
+D:\Homework\C#\My project\Project_8\src\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\Homework\C#\My project\Project_8\src\Domain\bin\Debug\net7.0\Domain.dll
+D:\Homework\C#\My project\Project_8\src\Domain\bin\Debug\net7.0\Domain.pdb
+D:\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\Domain.dll
+D:\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\Domain.pdb
+D:\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\ref\Domain.dll

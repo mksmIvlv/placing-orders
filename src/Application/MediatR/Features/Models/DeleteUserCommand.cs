@@ -3,7 +3,7 @@ using MediatR;
 
 namespace Application.MediatR.Features.Models;
 
-public class DeleteUserDeleteCommand : ICommand<Unit>
+public class DeleteUserCommand : ICommand<Unit>
 {
     #region Свойство
 
@@ -16,7 +16,7 @@ public class DeleteUserDeleteCommand : ICommand<Unit>
 
     #region Конструктор
 
-    public DeleteUserDeleteCommand(Guid id)
+    public DeleteUserCommand(Guid id)
     {
         Id = id;
     }

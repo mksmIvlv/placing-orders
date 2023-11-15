@@ -3,7 +3,7 @@ using MediatR;
 
 namespace Application.MediatR.Features.Models;
 
-public class AddOrderUserPostCommand : ICommand<Unit>
+public class AddOrderUserCommand : ICommand<Unit>
 {
     #region Свойства
 
@@ -31,7 +31,7 @@ public class AddOrderUserPostCommand : ICommand<Unit>
 
     #region Конструктор
 
-    public AddOrderUserPostCommand(Guid idUser, string nameOrder, string descriptionOrder, decimal price)
+    public AddOrderUserCommand(Guid idUser, string nameOrder, string descriptionOrder, decimal price)
     {
         IdUser = idUser;
         NameOrder = nameOrder;

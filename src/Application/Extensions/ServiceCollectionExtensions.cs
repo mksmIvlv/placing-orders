@@ -3,7 +3,6 @@ using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 
-
 namespace Application.Extensions;
 
 /// <summary>
@@ -23,7 +22,6 @@ public static class ServiceCollectionExtensions
         services.AddMediatR(typeof(ServiceCollectionExtensions).Assembly);
         services.AddScoped(typeof(IPipelineBehavior<,>), typeof(DataValidationPipelineBehaviour<,>));
         services.AddScoped(typeof(IPipelineBehavior<,>), typeof(LoggingPipelineBehaviour<,>));
-        
         
         return services;
     }

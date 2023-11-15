@@ -1,5 +1,4 @@
 ﻿using FluentValidation;
-using FluentValidation.Results;
 using MediatR;
 
 namespace Application.Mediatr.Pipelines;
@@ -40,31 +39,20 @@ public class DataValidationPipelineBehaviour<TIn, TOut> : IPipelineBehavior<TIn,
     /// <returns>Возвращаемый тип, метода, который должен выполниться</returns>
     public async Task<TOut> Handle(TIn request, RequestHandlerDelegate<TOut> next, CancellationToken cancellationToken)
     {
-        if (!_validators.Any())
-        {
+        if(!_validators.Any())
             return await next();
-        }
         
-        var errors = new List<ValidationFailure>();
         var context = new ValidationContext<TIn>(request);
-        
+
         foreach (var validator in _validators)
         {
-            var validationResult = await validator.ValidateAsync(context);
-            if (validationResult.Errors != null && validationResult.Errors.Count > 0)
-                errors.AddRange(validationResult.Errors);
-        }
-
-        if (errors.Any())
-        {
-            throw new ValidationException(errors);
+            var validationResult = await validator.ValidateAsync(context, cancellationToken);
+            if (validationResult.Errors.Any())
+                throw new ValidationException(validationResult.Errors);
         }
         
         return await next();
     }
     
     #endregion
-    
-    
-    
 }

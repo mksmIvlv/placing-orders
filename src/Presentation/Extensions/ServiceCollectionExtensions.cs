@@ -23,9 +23,9 @@ public static class ServiceCollectionExtensions
         {
             options.SwaggerDoc("v1", new OpenApiInfo
             {
-                Version = "v1",
-                Title = "Оформление заказов",
-                Description = "Проект ASP.NET Core Web API",
+                Version = "v1.",
+                Title = "Оформление заказов.",
+                Description = "Проект ASP.NET Core Web API. Работает с базой данных MongoDB.",
             });
         });
 

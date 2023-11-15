@@ -6,7 +6,7 @@ using MediatR;
 
 namespace Application.MediatR.Features.Commands;
 
-public class AddOrderUserHandler : ICommandHandler<AddOrderUserPostCommand, Unit>
+public class AddOrderUserHandler : ICommandHandler<AddOrderUserCommand, Unit>
 {
     #region Поле
 
@@ -33,7 +33,7 @@ public class AddOrderUserHandler : ICommandHandler<AddOrderUserPostCommand, Unit
     /// </summary>
     /// <param name="command">Команда</param>
     /// <param name="cancellationToken">Токен</param>
-    public async Task<Unit> Handle(AddOrderUserPostCommand command, CancellationToken cancellationToken)
+    public async Task<Unit> Handle(AddOrderUserCommand command, CancellationToken cancellationToken)
     {
         var order = new Order(command.NameOrder, command.DescriptionOrder, command.Price);
         

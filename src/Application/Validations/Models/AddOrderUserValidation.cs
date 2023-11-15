@@ -3,12 +3,10 @@ using FluentValidation;
 
 namespace Application.Validations.Models;
 
-public class AddOrderUserValidation : AbstractValidator<AddOrderUserPostCommand>
+public class AddOrderUserValidation : AbstractValidator<AddOrderUserCommand>
 {
     public AddOrderUserValidation() 
     {
-        RuleFor(x => x.IdUser).NotNull();
-        RuleFor(x => x.IdUser).NotEmpty();
         RuleFor(x => x.NameOrder).NotNull();
         RuleFor(x => x.NameOrder).NotEmpty();
         RuleFor(x => x.NameOrder).Must(HelperMethods.IsValidFullName);

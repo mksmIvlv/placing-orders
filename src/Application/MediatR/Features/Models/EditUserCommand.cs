@@ -3,10 +3,15 @@ using MediatR;
 
 namespace Application.MediatR.Features.Models;
 
-public class AddUserPostCommand : ICommand<Unit>
+public class EditUserCommand : ICommand<Unit>
 {
     #region Свойства
 
+    /// <summary>
+    /// Id
+    /// </summary>
+    public Guid Id { get; }
+    
     /// <summary>
     /// Имя
     /// </summary>
@@ -21,8 +26,9 @@ public class AddUserPostCommand : ICommand<Unit>
 
     #region Конструктор
 
-    public AddUserPostCommand(string name, string surname)
+    public EditUserCommand(Guid id, string name, string surname)
     {
+        Id = id;
         Name = name;
         Surname = surname;
     }

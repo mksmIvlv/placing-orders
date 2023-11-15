@@ -23,11 +23,11 @@ public class ExceptionFilter : Attribute, IExceptionFilter
 
         if (context.Exception is FormatException)
         {
-            message = $"В методе {actionName} возникло исключение:\nне верный формат данных.";
+            message = $"В методе {actionName} возникло исключение:\nне верный формат данных.Сообщение: {exceptionMessage}";
         }
         else if (context.Exception is ValidationException)
         {
-            message = $"В методе {actionName} возникло исключение:\nошибка валидации данных.";
+            message = $"В методе {actionName} возникло исключение:\nошибка валидации данных. Сообщение: {exceptionMessage}";
         }
         
         context.Result = new ContentResult

@@ -5,7 +5,7 @@ using MediatR;
 
 namespace Application.MediatR.Features.Commands;
 
-public class EditUserHandler : ICommandHandler<EditUserPutCommand, Unit>
+public class EditUserHandler : ICommandHandler<EditUserCommand, Unit>
 {
     #region Поле
 
@@ -32,7 +32,7 @@ public class EditUserHandler : ICommandHandler<EditUserPutCommand, Unit>
     /// </summary>
     /// <param name="command">Команда</param>
     /// <param name="cancellationToken">Токен</param>
-    public async Task<Unit> Handle(EditUserPutCommand command, CancellationToken cancellationToken)
+    public async Task<Unit> Handle(EditUserCommand command, CancellationToken cancellationToken)
     {
         await _repository.EditUserAsync(command.Id, command.Name, command.Surname);
         

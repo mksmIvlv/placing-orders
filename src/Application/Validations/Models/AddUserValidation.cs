@@ -3,7 +3,7 @@ using FluentValidation;
 
 namespace Application.Validations.Models;
 
-public class AddUserValidation : AbstractValidator<AddUserPostCommand>
+public class AddUserValidation : AbstractValidator<AddUserCommand>
 {
     public AddUserValidation() 
     {

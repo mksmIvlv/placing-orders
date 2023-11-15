@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Presentation\\Presentation.csproj": {}
+    "D:\\Homework\\C#\\My project\\Project_8\\src\\Presentation\\Presentation.csproj": {}
   },
   "projects": {
-    "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Application\\Application.csproj": {
+    "D:\\Homework\\C#\\My project\\Project_8\\src\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Homework\\C#\\My project\\Project_8\\src\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Application\\Application.csproj",
+        "projectPath": "D:\\Homework\\C#\\My project\\Project_8\\src\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\maxim\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Application\\obj\\",
+        "outputPath": "D:\\Homework\\C#\\My project\\Project_8\\src\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Domain\\Domain.csproj"
+              "D:\\Homework\\C#\\My project\\Project_8\\src\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Homework\\C#\\My project\\Project_8\\src\\Domain\\Domain.csproj"
               }
             }
           }
@@ -64,6 +64,10 @@
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Serilog": {
               "target": "Package",
@@ -98,18 +102,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Domain\\Domain.csproj": {
+    "D:\\Homework\\C#\\My project\\Project_8\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Homework\\C#\\My project\\Project_8\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Homework\\C#\\My project\\Project_8\\src\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\maxim\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Domain\\obj\\",
+        "outputPath": "D:\\Homework\\C#\\My project\\Project_8\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -158,18 +162,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Homework\\C#\\My project\\Project_8\\src\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Homework\\C#\\My project\\Project_8\\src\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\Homework\\C#\\My project\\Project_8\\src\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\maxim\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Infrastructure\\obj\\",
+        "outputPath": "D:\\Homework\\C#\\My project\\Project_8\\src\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -191,8 +195,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Application\\Application.csproj": {
-                "projectPath": "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Application\\Application.csproj"
+              "D:\\Homework\\C#\\My project\\Project_8\\src\\Application\\Application.csproj": {
+                "projectPath": "D:\\Homework\\C#\\My project\\Project_8\\src\\Application\\Application.csproj"
               }
             }
           }
@@ -214,6 +218,10 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.22.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[5.1.0, )"
             }
           },
           "imports": [
@@ -232,18 +240,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Presentation\\Presentation.csproj": {
+    "D:\\Homework\\C#\\My project\\Project_8\\src\\Presentation\\Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Presentation\\Presentation.csproj",
+        "projectUniqueName": "D:\\Homework\\C#\\My project\\Project_8\\src\\Presentation\\Presentation.csproj",
         "projectName": "Presentation",
-        "projectPath": "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Presentation\\Presentation.csproj",
+        "projectPath": "D:\\Homework\\C#\\My project\\Project_8\\src\\Presentation\\Presentation.csproj",
         "packagesPath": "C:\\Users\\maxim\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Presentation\\obj\\",
+        "outputPath": "D:\\Homework\\C#\\My project\\Project_8\\src\\Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -265,11 +273,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Application\\Application.csproj": {
-                "projectPath": "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Application\\Application.csproj"
+              "D:\\Homework\\C#\\My project\\Project_8\\src\\Application\\Application.csproj": {
+                "projectPath": "D:\\Homework\\C#\\My project\\Project_8\\src\\Application\\Application.csproj"
               },
-              "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\Personal\\Homework\\C#\\My project\\Project_8\\src\\Infrastructure\\Infrastructure.csproj"
+              "D:\\Homework\\C#\\My project\\Project_8\\src\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Homework\\C#\\My project\\Project_8\\src\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -316,7 +324,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

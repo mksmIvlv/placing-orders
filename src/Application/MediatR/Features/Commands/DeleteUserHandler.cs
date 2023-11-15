@@ -5,7 +5,7 @@ using MediatR;
 
 namespace Application.MediatR.Features.Commands;
 
-public class DeleteUserHandler : ICommandHandler<DeleteUserDeleteCommand, Unit>
+public class DeleteUserHandler : ICommandHandler<DeleteUserCommand, Unit>
 {
     #region Поле
 
@@ -32,7 +32,7 @@ public class DeleteUserHandler : ICommandHandler<DeleteUserDeleteCommand, Unit>
     /// </summary>
     /// <param name="command">Команда</param>
     /// <param name="cancellationToken">Токен</param>
-    public async Task<Unit> Handle(DeleteUserDeleteCommand command, CancellationToken cancellationToken)
+    public async Task<Unit> Handle(DeleteUserCommand command, CancellationToken cancellationToken)
     {
         await _repository.DeleteUserAsync(command.Id);
         

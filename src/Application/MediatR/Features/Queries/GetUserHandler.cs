@@ -1,11 +1,11 @@
 ﻿using Application.MediatR.Features.Models;
-using Application.Mediatr.Interfaces.Commands;
 using Application.Interface;
+using Application.Mediatr.Interfaces.Queries;
 using Domain.Models;
 
 namespace Application.MediatR.Features.Queries;
 
-public class GetUserHandler : ICommandHandler<GetUserGetCommand, User>
+public class GetUserHandler : IQueryHandler<GetUserQuery, User>
 {
     #region Поле
 
@@ -30,12 +30,12 @@ public class GetUserHandler : ICommandHandler<GetUserGetCommand, User>
     /// <summary>
     /// Получение пользователя
     /// </summary>
-    /// <param name="command">Команда</param>
+    /// <param name="query">Запрос</param>
     /// <param name="cancellationToken">Токен</param>
-    /// <returns></returns>
-    public async Task<User> Handle(GetUserGetCommand command, CancellationToken cancellationToken)
+    /// <returns>Поьзователь</returns>
+    public async Task<User> Handle(GetUserQuery query, CancellationToken cancellationToken)
     {
-        return await _repository.GetUserAsync(command.Id);
+        return await _repository.GetUserAsync(query.Id);
     }
 
     #endregion
