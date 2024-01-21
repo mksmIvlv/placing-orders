@@ -16,6 +16,7 @@ D:\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\Domain.Generated
 D:\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
 D:\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
 D:\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\Domain.sourcelink.json
 D:\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\Domain.dll
 D:\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\refint\Domain.dll
 D:\Homework\C#\My project\Project_8\src\Domain\obj\Debug\net7.0\Domain.pdb

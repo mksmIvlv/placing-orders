@@ -92,6 +92,7 @@ D:\Homework\C#\My project\Project_8\src\Presentation\bin\Debug\net7.0\MongoDB.Bs
 D:\Homework\C#\My project\Project_8\src\Presentation\bin\Debug\net7.0\MongoDB.Driver.dll
 D:\Homework\C#\My project\Project_8\src\Presentation\bin\Debug\net7.0\MongoDB.Driver.Core.dll
 D:\Homework\C#\My project\Project_8\src\Presentation\bin\Debug\net7.0\MongoDB.Libmongocrypt.dll
+D:\Homework\C#\My project\Project_8\src\Presentation\bin\Debug\net7.0\Newtonsoft.Json.dll
 D:\Homework\C#\My project\Project_8\src\Presentation\bin\Debug\net7.0\NSubstitute.dll
 D:\Homework\C#\My project\Project_8\src\Presentation\bin\Debug\net7.0\Serilog.dll
 D:\Homework\C#\My project\Project_8\src\Presentation\bin\Debug\net7.0\Serilog.AspNetCore.dll
@@ -126,13 +127,14 @@ D:\Homework\C#\My project\Project_8\src\Presentation\obj\Debug\net7.0\Presentati
 D:\Homework\C#\My project\Project_8\src\Presentation\obj\Debug\net7.0\Presentation.csproj.CoreCompileInputs.cache
 D:\Homework\C#\My project\Project_8\src\Presentation\obj\Debug\net7.0\Presentation.MvcApplicationPartsAssemblyInfo.cs
 D:\Homework\C#\My project\Project_8\src\Presentation\obj\Debug\net7.0\Presentation.MvcApplicationPartsAssemblyInfo.cache
+D:\Homework\C#\My project\Project_8\src\Presentation\obj\Debug\net7.0\Presentation.sourcelink.json
+D:\Homework\C#\My project\Project_8\src\Presentation\obj\Debug\net7.0\staticwebassets.build.json
+D:\Homework\C#\My project\Project_8\src\Presentation\obj\Debug\net7.0\staticwebassets.development.json
 D:\Homework\C#\My project\Project_8\src\Presentation\obj\Debug\net7.0\staticwebassets\msbuild.Presentation.Microsoft.AspNetCore.StaticWebAssets.props
 D:\Homework\C#\My project\Project_8\src\Presentation\obj\Debug\net7.0\staticwebassets\msbuild.build.Presentation.props
 D:\Homework\C#\My project\Project_8\src\Presentation\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Presentation.props
 D:\Homework\C#\My project\Project_8\src\Presentation\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Presentation.props
 D:\Homework\C#\My project\Project_8\src\Presentation\obj\Debug\net7.0\staticwebassets.pack.json
-D:\Homework\C#\My project\Project_8\src\Presentation\obj\Debug\net7.0\staticwebassets.build.json
-D:\Homework\C#\My project\Project_8\src\Presentation\obj\Debug\net7.0\staticwebassets.development.json
 D:\Homework\C#\My project\Project_8\src\Presentation\obj\Debug\net7.0\scopedcss\bundle\Presentation.styles.css
 D:\Homework\C#\My project\Project_8\src\Presentation\obj\Debug\net7.0\Presentation.csproj.CopyComplete
 D:\Homework\C#\My project\Project_8\src\Presentation\obj\Debug\net7.0\Presentation.dll
@@ -140,4 +142,3 @@ D:\Homework\C#\My project\Project_8\src\Presentation\obj\Debug\net7.0\refint\Pre
 D:\Homework\C#\My project\Project_8\src\Presentation\obj\Debug\net7.0\Presentation.pdb
 D:\Homework\C#\My project\Project_8\src\Presentation\obj\Debug\net7.0\Presentation.genruntimeconfig.cache
 D:\Homework\C#\My project\Project_8\src\Presentation\obj\Debug\net7.0\ref\Presentation.dll
-D:\Homework\C#\My project\Project_8\src\Presentation\bin\Debug\net7.0\Newtonsoft.Json.dll

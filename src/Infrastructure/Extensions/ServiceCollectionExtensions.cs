@@ -1,7 +1,9 @@
 ﻿using Application.Interface;
+using Domain.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MongoDB.Driver;
+using NSubstitute;
 
 namespace Infrastructure.Extensions;
 
@@ -16,10 +18,9 @@ public static class ServiceCollectionExtensions
     public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
     {
         var connection = configuration.GetConnectionString("DefaultConnection");
-        
-        services.AddSingleton<IMongoClient>(m=>  new MongoClient(connection));
-        services.AddScoped<IRepository, Repository>();
-        
+        services.AddSingleton<IMongoClient>(sp =>  new MongoClient(connection));
+        services.AddSingleton<IRepository, Repository>();
+
         Configurations.UserConfiguration.AddUserConfiguration();
         Configurations.OrderConfiguration.AddOrderConfiguration();
         

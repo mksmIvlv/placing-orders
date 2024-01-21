@@ -23,6 +23,7 @@ D:\Homework\C#\My project\Project_8\src\Application\obj\Debug\net7.0\Application
 D:\Homework\C#\My project\Project_8\src\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
 D:\Homework\C#\My project\Project_8\src\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
 D:\Homework\C#\My project\Project_8\src\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+D:\Homework\C#\My project\Project_8\src\Application\obj\Debug\net7.0\Application.sourcelink.json
 D:\Homework\C#\My project\Project_8\src\Application\obj\Debug\net7.0\Application.csproj.CopyComplete
 D:\Homework\C#\My project\Project_8\src\Application\obj\Debug\net7.0\Application.dll
 D:\Homework\C#\My project\Project_8\src\Application\obj\Debug\net7.0\refint\Application.dll
